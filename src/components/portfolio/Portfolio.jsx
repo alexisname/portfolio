@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/login1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -11,45 +11,45 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashaboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https:dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'TogetherWeGrow - a parent child activity app',
+    github: 'https://github.com/alexisname/CapstoneProject_Junlong',
+    demo: 'https://youtu.be/mVw5FK11lAM'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Chars templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https:dribbble.com/shots/16580766-Orion-UI-kit-Chars-templates-infographics-in-Figma'
+    title: 'Tank Game - using Unity Engine and C# for a 2D platformer game',
+    github: 'https://github.com/alexisname/TankGame',
+    demo: 'https://alexchen123.itch.io/tankwebv1'
   },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
-    github: 'https://github.com',
-    demo: 'https:dribbble.com/shots/17290917-Eclipse-Figma-dashboards-UI-kit-for-data-design-web-apps'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'https://github.com',
-    demo: 'https:dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https:dribbble.com/shots/16541289-Orion-UI-kit-Chars-templates-infographics-in-Figma'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https:dribbble.com/shots/15887665-Orion-UI-kit-Chars-templates-infographics-in-Figma'
-  },
+  // {
+  //   id: 3,
+  //   image: IMG3,
+  //   title: 'Figma dashboard UI kit for data design web apps',
+  //   github: 'https://github.com',
+  //   demo: 'https:dribbble.com/shots/17290917-Eclipse-Figma-dashboards-UI-kit-for-data-design-web-apps'
+  // },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'Maintaining tasks and tracking progress',
+  //   github: 'https://github.com',
+  //   demo: 'https:dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: 'Charts templates & infographics in Figma',
+  //   github: 'https://github.com',
+  //   demo: 'https:dribbble.com/shots/16541289-Orion-UI-kit-Chars-templates-infographics-in-Figma'
+  // },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: 'Charts templates & infographics in Figma',
+  //   github: 'https://github.com',
+  //   demo: 'https:dribbble.com/shots/15887665-Orion-UI-kit-Chars-templates-infographics-in-Figma'
+  // },
 ]
 
 

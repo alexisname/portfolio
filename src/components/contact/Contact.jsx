@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_0p37shq', 'template_9d77f2g', form.current, 'IO_ER3NP6qjG0t20N')
+    emailjs.sendForm('service_6rttie7', 'template_oz9auym', form.current, 'TJtdLlV6NcTZw7nIA')
     e.target.reset()
       .then((result) => {
           console.log(result.text);
@@ -31,10 +31,10 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>dummy@gamil.com</h5>
-            <a href="mailto:dummy@gmail.com" target="_blank">Send a message</a>
+            <h5>chenjl0311@gmail.com</h5>
+            <a href="mailto:chenjl0311@gmail.com" target="_blank">Send a message</a>
           </article>
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>egatortutorials</h5>
@@ -45,7 +45,7 @@ const Contact = () => {
             <h4>Whatsapp</h4>
             <h5>+123456789</h5>
             <a href="https://api.whatsapp.com/send?phone+12369896021" target="_blank">Send a message</a>
-          </article>
+          </article> */}
         </div>
         {/* END OF CONTACT OPTION */}
         <form ref={form} onSubmit={sendEmail}>
