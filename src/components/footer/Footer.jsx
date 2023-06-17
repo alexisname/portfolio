@@ -4,6 +4,7 @@ import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
 import {FaLinkedinIn} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -24,6 +25,7 @@ const Footer = () => {
         {/* <a href="https://facebook.com"><FaFacebookF /></a> */}
         <a href="https://www.instagram.com/jcisthename123/"><FiInstagram /></a>
         <a href="https://www.linkedin.com/in/junlong-chen-9b173322a/"><FaLinkedinIn /></a>
+        <a href="https://github.com/alexisname?tab=repositories/"><FaGithub /></a>
         
       </div>
 
