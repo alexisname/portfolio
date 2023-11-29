@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/login1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG3 from '../../assets/portfolio-springbootapi.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
@@ -22,13 +22,13 @@ const data = [
     github: 'https://github.com/alexisname/TankGame',
     demo: 'https://alexchen123.itch.io/tankwebv1'
   },
-  // {
-  //   id: 3,
-  //   image: IMG3,
-  //   title: 'Figma dashboard UI kit for data design web apps',
-  //   github: 'https://github.com',
-  //   demo: 'https:dribbble.com/shots/17290917-Eclipse-Figma-dashboards-UI-kit-for-data-design-web-apps'
-  // },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Real-time Blog API - using Spring Boot to create a Blog API',
+    github: 'https://github.com/alexisname/real-time-blog-api',
+    demo: 'http://springboot-blog-api.ca-central-1.elasticbeanstalk.com/swagger-ui/index.html#/'
+  },
   // {
   //   id: 4,
   //   image: IMG4,
